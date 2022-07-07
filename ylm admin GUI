@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("admin GUI", "LightTheme")
+local Tab = Window:NewTab("special")
+local Section = Tab:NewSection("special for u ;)")
+Section:NewButton("Shazam!", "say Shazam! to enable it", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/ShazamScript/main/Shazam-RedorGreen"))()
+end)
+Section:NewButton("Shazam fly", "gives shazam fly", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/Shitty-nigger-get-cracked/main/w"))()
+end)
+local Tab = Window:NewTab("mod's")
+local Section = Tab:NewSection("online moderators")
+Section:NewButton("DanielleHoward3 [Developer]", "Main dev", function()
+    
+end)
+Section:NewButton("Togrul_PRO1 [scripter", "scripter", function()
+    
+end)
